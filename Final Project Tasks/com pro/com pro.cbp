@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="com pro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/com pro" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/com pro" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/bench.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/buildings.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/car.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/center boat.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/cloud.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/day sea.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/day sky.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/light stand.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/roads.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/tree (M).h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/tree 1 (D).h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/tree 2 (D).h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/tree 3 (D).h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/tree red (W).h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/yatch boat 1.h" />
+		<Unit filename="C:/Users/HP-NPC/Downloads/txt/yatch boat 2.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
